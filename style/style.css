@@ -5,3 +5,43 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+.nav-container{
+    display: flex;
+    min-height: 50px;
+    border: 2px solid  tomato;
+    /* background-color: aquamarine; */
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+}
+.logo-container img{
+    margin-right: 20px;
+    width: 50px;
+    object-fit: cover;
+}
+.logo-container a {
+    text-decoration: none;
+}
+.nav-container p {
+    font-size: 30px;
+    /* border: 2px solid blue; */
+}
+.text-hive{
+    color: blue;
+}
+.nav-item-container{
+    width: 50%;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item a{
+    text-decoration: none;
+}
+.nav-item  li {
+    list-style: none;
+}
