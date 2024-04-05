@@ -20,5 +20,29 @@
    .nav-item-container{
     width: 100%;
    }
+   .logo-container p span{
+    font-size: 10px;
+   }
    /* nav section end  */
+
+   .banner-container{
+   flex-direction: column;
+ /*   width: 50%; */
+   align-items: center;
+}
+.banner-text .banner-img{
+    width: 100%;
+}
+.banner-photo{
+    width: 100%;
+}
+.banner-text h1{
+    font-size: 20px;
+}
+.banner-img{
+    width: 100%;
+}
+.banner-text{
+    width: 100%;
+}
 }
